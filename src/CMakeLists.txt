@@ -10,5 +10,5 @@ add_executable(ftd
     
     platform/unix/io.cpp)
 
-target_link_libraries(ftd SDL2 SDL2main glad imgui glm spng)
+target_link_libraries(ftd SDL2 SDL2main glad imgui glm)
 target_include_directories(ftd PRIVATE ${CMAKE_CURRENT_SOURCE_DIR})

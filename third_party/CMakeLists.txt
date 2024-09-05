@@ -7,4 +7,3 @@ add_library(imgui STATIC imgui/imgui_draw.cpp imgui/imgui_tables.cpp imgui/imgui
 target_include_directories(imgui PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/imgui)
 
 add_subdirectory(glm)
-add_subdirectory(libspng)

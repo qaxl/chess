@@ -3,7 +3,6 @@
 
 #include <cstdio>
 #include <vector>
-#include <spng.h>
 #include <glad/glad.h>
 #include "stb_image.h"
 
