@@ -45,3 +45,4 @@ $ ./ftd
 - https://greenchess.net/info.php?item=downloads for chess pieces
 - https://en.m.wikipedia.org/wiki/File:Chess_Board.svg for chess board (converted to PNG & rescaled)
 - https://learnopengl.com/
+- [zKevz](https://github.com/zKevz) for the idea
