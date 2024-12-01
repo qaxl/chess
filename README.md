@@ -16,6 +16,14 @@ Running on Linux (Debian):
 Running on Windows:
 ![Screenshot in-game on Windows](/.github/windows.png)
 
+## Features
+- can move chess pieces
+- can eat other chess pieces (no validation whether your own or your opponents!)
+- highlight currently selected chess piece
+- highlight possible moves (not validated! only for pawns!)
+
+To support more features and my sanity (due to messy code base), this whole project needs a rewrite. 
+
 ## Supported platforms
 Currently only supported platforms are Windows and Linux. It should technically also compile on macOS, but I don't have a macOS device to test it on.
 
