@@ -2,7 +2,7 @@
 A quick and dirty chess project using OpenGL and SDL. This most likely will end up being a throw-away educational project.
 
 > [!CAUTION]
-> This codebase is not an example for you to learn how to organize code or build larger projects. Please refrain from using this project as an example project of a good project, as it isn't one. Also as I've mentioned before, this project probably won't earn any further maintenance as it was only a educational project for myself to learn new things, feedback and pull requests are welcome, of course.
+> This codebase is not an example for you to learn how to organize code or build larger projects. Please refrain from using this project as an example project of a good project, as it isn't one. Also as I've mentioned before, this project probably won't earn any further maintenance as it was only an educational project for myself to learn new things, feedback and pull requests are welcome, of course.
 
 ## Libraries used
 - [GLAD](https://github.com/Dav1dde/glad)
@@ -11,7 +11,10 @@ A quick and dirty chess project using OpenGL and SDL. This most likely will end 
 - [glm](https://github.com/g-truc/glm)
 
 ## Screenshots
-![Screenshot of in-game](/.github/screenshot.png)
+Running on Linux (Debian):
+![Screenshot in-game (old screenshot before a few QoL updates)](/.github/screenshot.png)
+Running on Windows:
+![Screenshot in-game on Windows](/.github/windows.png)
 
 ## Supported platforms
 Currently only supported platforms are Windows and Linux. It should technically also compile on macOS, but I don't have a macOS device to test it on.
