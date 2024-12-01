@@ -4,26 +4,26 @@
 #include "graphics/gl/batch_renderer.hpp"
 #include <array>
 
-namespace ftd
-{
-    struct Piece {
-        ChessPieces type;
-        bool black = false;
-    };
+namespace ftd {
+struct Piece {
+  ChessPieces type;
+  bool black = false;
+  bool highlight = false;
+};
 
-    class ChessBoard {
-    public:
-        ChessBoard();
+class ChessBoard {
+public:
+  ChessBoard();
 
-        void draw(bool jump = false);
-        void move(int x, int y);
+  void draw();
+  void move(int x, int y);
 
-    private:
-        std::array<Piece, 64> pieces_{};
+private:
+  std::array<Piece, 64> pieces_{};
 
-        gl::Texture tex_;
-        gl::BatchRenderer renderer_;
+  gl::Texture tex_;
+  gl::BatchRenderer renderer_;
 
-        Piece* current_piece_ = nullptr;
-    };
-}
+  Piece *current_piece_ = nullptr;
+};
+} // namespace ftd
