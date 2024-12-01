@@ -14,12 +14,12 @@ A quick and dirty chess project using OpenGL and SDL. This most likely will end 
 ![Screenshot of in-game](/.github/screenshot.png)
 
 ## Supported platforms
-Currently only *nix-based platforms are supported due to me implementing my own io utils, specifically using POSIX-only features. Windows support may come in the future (not on high priority).
+Currently only supported platforms are Windows and Linux. It should technically also compile on macOS, but I don't have a macOS device to test it on.
 
 ## Building
 
 ### Requirements
-In addition to C++ development tools (no tutorial here, look up: `setup c++ development environment on <distro>`), you need to install your distro's SDL2 (usually called `libsdl2-dev`) development libraries, everything else is packaged and ready-to-go.
+In addition to C++ development tools (no tutorial here, look up: `setup c++ development environment on <distr/os>`), everything else is packaged and ready-to-go.
 
 Example, in Ubuntu/Debian:
 ```sh
